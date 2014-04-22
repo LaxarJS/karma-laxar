@@ -83,9 +83,10 @@ module.exports = function( grunt ) {
    grunt.registerTask( 'release', 'Test, bump and publish to NPM.', function( type ) {
       grunt.task.run( [
          'test',
-         'build',
          'npm-contributors',
-         'bump:#{type || \'patch\'}'
+         'bump-only:#{type || \'patch\'}'
+         'build',
+         'bump-commit',
       // 'npm-publish'
       ] );
    } );
