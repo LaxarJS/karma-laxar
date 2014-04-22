@@ -84,7 +84,7 @@ module.exports = function( grunt ) {
       grunt.task.run( [
          'test',
          'npm-contributors',
-         'bump-only:#{type || \'patch\'}'
+         'bump-only:#{type || \'patch\'}',
          'build',
          'bump-commit',
       // 'npm-publish'

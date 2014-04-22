@@ -29,6 +29,8 @@
       "grunt-contrib-jshint": "~0.8.0",
       "grunt-bump": "~0.0.13",
       "grunt-npm": "~0.0.2",
-      "grunt-auto-release": "~0.0.6"
+      "grunt-auto-release": "~0.0.6",
+      "grunt-contrib-concat": "~0.4.0",
+      "grunt-contrib-uglify": "~0.4.0"
    }
 }
