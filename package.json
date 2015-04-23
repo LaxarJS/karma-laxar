@@ -18,7 +18,8 @@
       "laxar"
    ],
    "dependencies": {
-      "lodash": "~2.4.1"
+      "lodash": "~2.4.1",
+      "es5-shim": "~4.1.x"
    },
    "peerDependencies": {
       "karma": ">=0.9"
