@@ -1,3 +1,3 @@
 # karma-laxar
 
-> Adapter for the [LaxarJS](http://laxar.org) framework.
+> Adapter for the [LaxarJS](http://laxarjs.org) framework.
