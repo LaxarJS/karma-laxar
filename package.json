@@ -1,6 +1,6 @@
 {
    "name": "karma-laxar",
-   "version": "0.3.0-pre",
+   "version": "1.0.0",
    "description": "Run LaxarJS specs without the hassle",
    "repository": {
       "type": "git",
