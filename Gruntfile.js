@@ -25,14 +25,6 @@ module.exports = function( grunt ) {
             }
          }
       },
-      uglify: {
-         adapter: {
-            files: {
-               'lib/adapter_pre.min.js': [ 'lib/adapter_pre.js' ],
-               'lib/adapter_post.min.js': [ 'lib/adapter_post.js' ]
-            }
-         }
-      },
       jshint: {
          options: {
             jshintrc: '.jshintrc'
@@ -70,14 +62,13 @@ module.exports = function( grunt ) {
    });
 
    grunt.loadNpmTasks( 'grunt-contrib-concat' );
-   grunt.loadNpmTasks( 'grunt-contrib-uglify' );
    grunt.loadNpmTasks( 'grunt-contrib-jshint' );
    grunt.loadNpmTasks( 'grunt-bump' );
    grunt.loadNpmTasks( 'grunt-npm' );
    grunt.loadNpmTasks( 'grunt-auto-release' );
 
    grunt.registerTask( 'test', ['jshint'] );
-   grunt.registerTask( 'build', ['concat', 'uglify'] );
+   grunt.registerTask( 'build', ['concat'] );
    grunt.registerTask( 'default', ['build', 'test'] );
 
    grunt.registerTask( 'release', 'Test, bump and publish to NPM.', function( type ) {

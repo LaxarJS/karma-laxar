@@ -1,4 +1,4 @@
 requirejs.load = createPatchedLoad( karma.files, requirejs.load, locationPathname );
-karma.start = createStartFn( karma, requirejs, jasmine, laxarSpec );
+karma.start = createStartFn( karma, requirejs, jasmineRequireOrJasmine, laxarSpec );
 
-} )( window.__karma__, window.requirejs, window.jasmine, window.laxarSpec, window.location.pathname );
+} )( window.__karma__, window.requirejs, window.jasmineRequire || window.jasmine, window.laxarSpec, window.location.pathname );

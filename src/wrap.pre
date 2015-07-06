@@ -1,2 +1,2 @@
-( function( karma, requirejs, jasmine, laxarSpec, locationPathname ) {
+( function( karma, requirejs, jasmineRequireOrJasmine, laxarSpec, locationPathname ) {
 
