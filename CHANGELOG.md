@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+- [#5](https://github.com/LaxarJS/grunt-laxar/issues/5): added Travis-CI build integration
+    + NEW FEATURE: see ticket for details
+
 
 ## v1.1.0-alpha.1
 
