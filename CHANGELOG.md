@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v1.1.0-alpha.1
+
 - [#4](https://github.com/LaxarJS/karma-laxar/issues/4): use laxarSpec meta to find `runSpec` and jasmine
 
 
