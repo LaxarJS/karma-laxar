@@ -2,7 +2,7 @@
 
 ## Last Changes
 
-- [#5](https://github.com/LaxarJS/grunt-laxar/issues/5): added Travis-CI build integration
+- [#5](https://github.com/LaxarJS/karma-laxar/issues/5): added Travis-CI build integration
     + NEW FEATURE: see ticket for details
 
 
